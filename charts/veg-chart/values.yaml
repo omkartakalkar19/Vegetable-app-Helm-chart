@@ -1,4 +1,4 @@
-namespace: murali-ns
+namespace: omkar-ns
 
 #configmap details
 configmap:
@@ -14,8 +14,8 @@ deployment:
     app: vegetable-order-app
   port:  3000
   image:
-    repository: vasist/vegetable-order-app
-    tag: v1.0.1
+    repository: omkartakalkar/vegetable-app
+    tag: v3.0.0
     env:
       name: MONGO_URI
       valueFrom:
